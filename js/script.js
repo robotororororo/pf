@@ -11,6 +11,22 @@ $(function(){
 
         if(idx == 3 || idx == 4){
             $('.description > *').hide()
+            if($(window).width() <426) {
+                $('.video').css({
+                    height : '430px'
+                })
+                $('#wrap').css({
+                    height : 'auto'
+                })
+            }
+        }else {
+            $('.video').css({
+                height : 'auto'
+            })
+            $('#wrap').css({
+                height : '100vh'
+            })
         }
+
     })
 })

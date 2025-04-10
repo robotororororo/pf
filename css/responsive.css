@@ -52,6 +52,7 @@
     #wrap #left .screen .aboutpage .container {
         padding: 1rem;
         background: transparent;
+        display: flex;
     }
     #wrap #left .screen .aboutpage .about-cont h1 {
         font-size: 1.2rem;
@@ -117,6 +118,7 @@
 }
 
 @media screen and (max-width : 425px) {
+
     #wrap #left .screen .video iframe {
         padding: 1rem;
     }
@@ -157,6 +159,9 @@
         padding-bottom: 15px;
         height: auto;
     }
+    #wrap #left .screen .video {
+        padding-top: 86.25%;
+    }
     #wrap #left .screen .aboutpage .container {
         padding: 2rem 1rem;
         position: relative;
@@ -180,7 +185,7 @@
     }
     #wrap #left .screen .aboutpage .aboutpage-left .about-pic img {
         width: 100%;
-        height: 300px;
+        height: 200px;
     }
     #wrap #left .screen .aboutpage .aboutpage-left .about-cont .about-cont-txt:first-child {
         position: absolute;
@@ -233,7 +238,7 @@
         padding-left: 1.5rem;
     }
     #wrap #left .screen .contactmepage .container .form textarea {
-        height: 210px;
+        height: 140px;
         background-size: 1.3rem;
         border-bottom: 1px solid #0a0a0a;
         padding-left: 1.5rem;
