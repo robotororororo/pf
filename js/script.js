@@ -21,7 +21,7 @@ $(function(){
             }
         }else {
             $('.video').css({
-                height : 'auto'
+                height : '100%'
             })
             $('#wrap').css({
                 height : '100vh'
