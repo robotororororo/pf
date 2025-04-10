@@ -104,6 +104,9 @@
     #wrap #right .vhsbox .sizing img {
         opacity: 0.8;
     }
+    .description div {
+        overflow-y: scroll;
+    }
     .description div h2 {
         font-size: 1.8rem;
     }
@@ -214,13 +217,13 @@
         opacity: 0.5;
     }
     .description {
-        /* position: absolute; */
         top: 0;
         left: 0;
     }
     .description div {
         padding: 1rem;
         left:0;
+        overflow-y: scroll;
     }
     .description div h2 {
         font-size: 1.3rem;
