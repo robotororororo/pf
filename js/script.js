@@ -9,5 +9,8 @@ $(function(){
         $('.video > *').eq(idx).fadeIn()
         $('.description > *').eq(idx).fadeIn().siblings().fadeOut()
 
+        if(idx == 3 || idx == 4){
+            $('.description > *').hide()
+        }
     })
 })

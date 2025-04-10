@@ -7,6 +7,10 @@
     .glitch {
         font-size: 5rem;
     }
+    #wrap #left .screen .video iframe {
+        padding: 1rem;
+        border-radius: 1.3rem;
+    }
     #wrap #right {
         width: 100%;
         height: 100%;
@@ -42,13 +46,15 @@
     }
     #wrap #left .screen .aboutpage {
         padding: 0;
+        height: auto;
+        border-radius: 0.3rem;
     }
     #wrap #left .screen .aboutpage .container {
-        padding: 1.5rem;
+        padding: 1rem;
         background: transparent;
     }
     #wrap #left .screen .aboutpage .about-cont h1 {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         margin-bottom: 0.5rem;
     }
     #wrap #left .screen .aboutpage .about-cont p {
@@ -77,9 +83,12 @@
     }
     #wrap #left .screen .contactmepage {
         padding-top: 2rem ;
+        height: auto;
     }
     #wrap #left .screen .contactmepage .container {
         padding: 0;
+        background: transparent;
+        width: 100%;
     }
     #wrap #left .screen .contactmepage .container h1 {
         font-size: 1.5rem;
@@ -91,6 +100,9 @@
     #wrap #left .screen .contactmepage .container .form input {
         height: 2.5rem;
         background-size: 2rem;
+    }
+    #wrap #right .vhsbox .sizing img {
+        opacity: 0.8;
     }
     .description div h2 {
         font-size: 1.8rem;
@@ -117,27 +129,32 @@
     }
     #wrap #right .contbox {
         width: 100%;
-        height: 10%;
+        height: 30px;
         display: flex;
     }
     #wrap #right .contbox a {
         text-align: center;
+        width: 100%;
+        height: 100%;
     }
     #wrap #right .contbox a img {
         display: none;
     }
     #wrap #right .contbox a span {
-    font-size: 1.3rem;
+    font-size: 1rem;
     color: #eaeaea;
-    left: 0;
+    left: 0.5rem;
     top: 0;
     height: 100%;
     }
     #wrap #right .vhsbox {
         width: 100%;
     }
+    #wrap #left .screen .aboutpage {
+        padding-bottom: 15px;
+    }
     #wrap #left .screen .aboutpage .container {
-        padding: 0.5rem;
+        padding: 2rem 1rem;
     }
     #wrap #left .screen .aboutpage .about-cont h1 {
         font-size: 1rem;
@@ -162,6 +179,10 @@
         width: 50%;
         padding-left: 0.5rem;
     }
+    #wrap #left .screen .aboutpage .about-cont .edu li {
+        display: flex;
+        flex-direction: column;
+    }
     #wrap #left .screen .aboutpage .about-cont .careers li {
       display: flex;
       flex-direction: column;
@@ -169,6 +190,10 @@
     }
     #wrap #left .screen .contactmepage {
         padding-top: 1rem ;
+        height: auto;
+    }
+    #wrap #left .screen .contactmepage .container {
+        width: 100%;
     }
     #wrap #left .screen .contactmepage .container h1 {
         font-size: 1.3rem;
@@ -176,18 +201,17 @@
     #wrap #left .screen .contactmepage .container .form input {
         height: 2rem;
         background-size: 1.3rem;
+        border-bottom: 1px solid #0a0a0a;
+        padding-left: 1.5rem;
     }
     #wrap #left .screen .contactmepage .container .form textarea {
-        height: 100px;
+        height: 210px;
         background-size: 1.3rem;
-    }
-    #wrap #left .screen .contactmepage input {
         border-bottom: 1px solid #0a0a0a;
         padding-left: 1.5rem;
     }
-    #wrap #left .screen .contactmepage textarea {
-        border-bottom: 1px solid #0a0a0a;
-        padding-left: 1.5rem;
+    #wrap #right .vhsbox .sizing img {
+        opacity: 0.5;
     }
     .description {
         /* position: absolute; */
